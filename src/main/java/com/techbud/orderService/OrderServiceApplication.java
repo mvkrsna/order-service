@@ -11,7 +11,7 @@ public class OrderServiceApplication {
 	public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(OrderServiceApplication.class, args);
         System.out.println("Order Service Application started successfully.");
-        context.close();
+//        context.close();
 	}
 
 }
